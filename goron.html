@@ -4,13 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Zelda BOTW Recipes | Goron Style</title>
   </head>
 </html>
 
-<title>Zelda BOTW Recipes | Goron</title>
-
 <header>
+  <!--A header linking together pages-->
   <fieldset>
     <nav>
       <legend>Zelda BOTW Recipes</legend>
@@ -27,43 +26,111 @@
 
 <main>
   <h1>Goron Recipes</h1>
-
+  <!--Reitterate the title of the page-->
+  <p>
+    <strong>Hint!</strong> Look in the Eldin region (Death Mountain and
+    surrounding area) for most of the ingredients!
+  </p>
+  <p></p>
   <section>
     <table>
-      <th>Recipe Name: &nbsp;</th>
+      <!--A table stating recipe names, ingredients required and alternates-->
+      <th>Recipe Name:</th>
       <th>Ingredients Required:</th>
-      <tr>
 
+      <tr>
         <td>Curry</td>
+        <!--Recipe Name-->
         <td>
           <ul>
+            <!--A list of all required ingredients-->
             <li>Goron Spice</li>
             <li>Rice</li>
             <li>Add any bird to it to make it "poultry" curry</li>
             <li>Add any meat to it to make it "meat" curry</li>
-            <li>Add monster extract (obtained from Kilton) to make it "monster" curry</li>
+            <li>
+              Add monster extract (obtained from Kilton) to make it "monster"
+              curry
+            </li>
+            <li>Add any seafood to it to make "seafood" curry.</li>
+            <li>Add an egg to it to make curry "pilaf"</li>
           </ul>
         </td>
       </tr>
 
-      <td>Spiced meat skewer</td>
+      <tr>
+        <td>Spiced meat skewer</td>
+        <!--Recipe Name-->
         <td>
           <ul>
+            <!--A list of all required ingredients-->
             <li>Goron Spice</li>
             <li>Any meat</li>
           </ul>
         </td>
       </tr>
 
-      <td>Herb Saute</td>
+      <tr>
+        <td>Herb Saute</td>
+        <!--Recipe Name-->
         <td>
           <ul>
+            <!--A list of all required ingredients-->
             <li>Goron Spice</li>
-            <li>Any meat</li>
+            <li>Any vegetable</li>
           </ul>
         </td>
       </tr>
 
+      <tr>
+        <td>Stir-Fry</td>
+        <!--Recipe Name-->
+        <td>
+          <ul>
+            <!--A list of all required ingredients-->
+            <li>Any crab</li>
+            <li>Goron spice</li>
+          </ul>
+        </td>
+      </tr>
+
+      <tr>
+        <td>Rock-hard food</td>
+        <!--Recipe Name-->
+        <td>
+          <ul>
+            <!--A list of all required ingredients-->
+            <li>Wood</li>
+            <li>Any gemstone or rock</li>
+          </ul>
+        </td>
+      </tr>
     </table>
   </section>
 </main>
+
+<br/> <!--Adding line break to divide between sections-->
+
+<footer>
+    <fieldset>
+        <form>
+            <!--Was this page helpful? Yes or No-->
+            <h3>Was this page helpful?</h3>
+            <input type="checkbox" id="yes" name="yes" value="yes"> <!--Checkbox y or n-->
+            <label for="yes">Yes</label>
+            <input type="checkbox" id="no" name="no" value="no">
+            <label for="no">No</label>
+            <br></br>
+
+        <!--Write a Review about the site-->
+            <label for="addReview">
+            Write a review about this site!
+            Don't share any private information, as this website was made for a school project.</label>
+            <br></br>
+            <textarea id="addReview" name="addReview" rows="10" cols="100"></textarea>
+            <br></br>
+        <!--Submit Button-->
+            <input type="submit" value="Submit">
+        </form>
+    </fieldset>
+</footer>
